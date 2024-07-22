@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <header class="navbar_center">
+            <div class="navbar_logo">
+                <a href="#" class="logo"><img src="./icons/Logo.svg" alt=""></a>
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </header>
+
+        <div class="icons">
+            <a href="#"><img src="./icons/home.svg" alt=""></a>
+            <a href="#"><img src="./icons/messenger.svg" alt=""></a>
+            <a href="#"><img src="./icons/location.svg" alt=""></a>
+            <a href="#"><img src="./icons/like.svg" alt=""></a>
+            <a href="#"><img src="./icons/Avatar.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="stories"></div>
+            <div class="post_container"></div>
+        </div>
+
+        <div class="sidebar">
+            <div class="profile">
+
+                <div class="profile_flex">
+					<img src="./icons/Avatar.svg" alt="Profile Picture">
+                	<div>
+						<div class="name">nickname</div>
+						<div>Name Surname</div>
+					</div>
+				</div>
+                
+                <div class="switch">Switch</div>
+
+            </div>
+
+
+            <div class="suggestions">
+                <div>Suggestions For You</div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dialog id="post_dialog">
+        <div class="dialog_flex">
+            <img src="" alt="Post Image" id="dialog_image" />
+            <div class="dialog_descr"></div>
+        </div>
+        <button class="close" id="close_dialog">&times;</button>
+    </dialog>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
